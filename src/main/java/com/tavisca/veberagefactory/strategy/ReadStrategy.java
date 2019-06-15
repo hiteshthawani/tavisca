@@ -1,7 +1,9 @@
 package com.tavisca.veberagefactory.strategy;
 
+import java.util.List;
+
 public interface ReadStrategy {
 
-    String read();
+    List<String> read();
 
 }

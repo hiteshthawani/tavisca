@@ -23,7 +23,7 @@ public class DefaultOrderImpl implements Order {
             String[] orderBreakup = order.split(",");
             Product product = menu.getMenuItem(orderBreakup[0]);
             final HashMap<String, Ingredient> ingredientList = product.getIngredientList();
-
+            orderAmount = orderAmount + product.getProductCost();
 
             Arrays.stream(orderBreakup)
                     .filter(itemToBeRemoved -> itemToBeRemoved.contains("-"))
@@ -38,9 +38,6 @@ public class DefaultOrderImpl implements Order {
                     amountToBeDeducted = amountToBeDeducted + ingredient.getPrice();
 
             }
-
-
-            orderAmount = orderAmount + ingredientList.values().stream().collect(Collectors.summingDouble(Ingredient::getPrice));
 
 
         }

@@ -9,7 +9,7 @@ public class ReadFactory {
         READ_FROM_CONSOLE;
     }
 
-    public static ReadStrategy getIndexStrategy(ReadStrategyType indexStrategyType) {
+    public static ReadStrategy getReadStrategy(ReadStrategyType indexStrategyType) {
         switch (indexStrategyType) {
             case READ_FROM_CONSOLE:
             default:

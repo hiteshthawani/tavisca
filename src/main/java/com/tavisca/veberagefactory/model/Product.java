@@ -6,7 +6,8 @@ import java.util.Objects;
 public class Product {
     String productName;
     long productId;
-    HashMap<String,Ingredient> ingredientList;
+    HashMap<String, Ingredient> ingredientList;
+    double productCost;
 
     public String getProductName() {
         return productName;
@@ -18,6 +19,14 @@ public class Product {
 
     public long getProductId() {
         return productId;
+    }
+
+    public double getProductCost() {
+        return productCost;
+    }
+
+    public void setProductCost(double productCost) {
+        this.productCost = productCost;
     }
 
     public void setProductId(long productId) {
