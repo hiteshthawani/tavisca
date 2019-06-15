@@ -1,13 +1,12 @@
-package com.tavisca.veberagefactory.service;
+package com.tavisca.beveragefactory.service;
 
-import com.tavisca.veberagefactory.constants.ExceptionMessages;
-import com.tavisca.veberagefactory.exceptions.InvalidOrderException;
-import com.tavisca.veberagefactory.factory.MenuFactory;
-import com.tavisca.veberagefactory.model.Ingredient;
-import com.tavisca.veberagefactory.model.Product;
+import com.tavisca.beveragefactory.constants.ExceptionMessages;
+import com.tavisca.beveragefactory.exceptions.InvalidOrderException;
+import com.tavisca.beveragefactory.factory.MenuFactory;
+import com.tavisca.beveragefactory.model.Ingredient;
+import com.tavisca.beveragefactory.model.Product;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class DefaultOrderImpl implements Order {
     @Override

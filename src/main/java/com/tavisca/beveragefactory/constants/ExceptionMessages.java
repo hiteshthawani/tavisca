@@ -1,4 +1,4 @@
-package com.tavisca.veberagefactory.constants;
+package com.tavisca.beveragefactory.constants;
 
 public class ExceptionMessages {
 

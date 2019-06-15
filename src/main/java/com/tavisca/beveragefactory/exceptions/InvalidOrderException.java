@@ -1,4 +1,4 @@
-package com.tavisca.veberagefactory.exceptions;
+package com.tavisca.beveragefactory.exceptions;
 
 public class InvalidOrderException extends BaseException {
     public InvalidOrderException(String message) {

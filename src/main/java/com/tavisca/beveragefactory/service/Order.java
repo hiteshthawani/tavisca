@@ -1,4 +1,4 @@
-package com.tavisca.veberagefactory.service;
+package com.tavisca.beveragefactory.service;
 
 import java.util.List;
 

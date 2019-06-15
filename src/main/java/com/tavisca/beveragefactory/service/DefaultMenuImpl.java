@@ -1,7 +1,7 @@
-package com.tavisca.veberagefactory.service;
+package com.tavisca.beveragefactory.service;
 
-import com.tavisca.veberagefactory.model.Product;
-import com.tavisca.veberagefactory.repository.InMemoryRepo;
+import com.tavisca.beveragefactory.model.Product;
+import com.tavisca.beveragefactory.repository.InMemoryRepo;
 
 public class DefaultMenuImpl implements Menu {
 

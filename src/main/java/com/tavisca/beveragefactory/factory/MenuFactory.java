@@ -1,7 +1,7 @@
-package com.tavisca.veberagefactory.factory;
+package com.tavisca.beveragefactory.factory;
 
-import com.tavisca.veberagefactory.service.DefaultMenuImpl;
-import com.tavisca.veberagefactory.service.Menu;
+import com.tavisca.beveragefactory.service.DefaultMenuImpl;
+import com.tavisca.beveragefactory.service.Menu;
 
 public class MenuFactory {
 

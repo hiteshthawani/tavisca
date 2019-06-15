@@ -1,4 +1,4 @@
-package com.tavisca.veberagefactory.model;
+package com.tavisca.beveragefactory.model;
 
 import java.util.HashMap;
 import java.util.Objects;

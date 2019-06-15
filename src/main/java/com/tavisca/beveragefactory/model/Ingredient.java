@@ -1,4 +1,4 @@
-package com.tavisca.veberagefactory.model;
+package com.tavisca.beveragefactory.model;
 
 public class Ingredient {
 

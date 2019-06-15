@@ -1,4 +1,4 @@
-package com.tavisca.veberagefactory.strategy;
+package com.tavisca.beveragefactory.strategy;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.tavisca.veberagefactory.factory;
+package com.tavisca.beveragefactory.factory;
 
-import com.tavisca.veberagefactory.strategy.ReadFromConsoleStrategy;
-import com.tavisca.veberagefactory.strategy.ReadStrategy;
+import com.tavisca.beveragefactory.strategy.ReadFromConsoleStrategy;
+import com.tavisca.beveragefactory.strategy.ReadStrategy;
 
 public class ReadFactory {
 

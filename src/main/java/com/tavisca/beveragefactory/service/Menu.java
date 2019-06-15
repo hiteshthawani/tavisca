@@ -1,6 +1,6 @@
-package com.tavisca.veberagefactory.service;
+package com.tavisca.beveragefactory.service;
 
-import com.tavisca.veberagefactory.model.Product;
+import com.tavisca.beveragefactory.model.Product;
 
 public interface Menu {
 

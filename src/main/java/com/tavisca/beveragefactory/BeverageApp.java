@@ -1,12 +1,12 @@
-package com.tavisca.veberagefactory;
+package com.tavisca.beveragefactory;
 
-import com.tavisca.veberagefactory.factory.OrderFactory;
-import com.tavisca.veberagefactory.factory.ReadFactory;
-import com.tavisca.veberagefactory.model.Ingredient;
-import com.tavisca.veberagefactory.model.Product;
-import com.tavisca.veberagefactory.repository.InMemoryRepo;
-import com.tavisca.veberagefactory.service.Order;
-import com.tavisca.veberagefactory.strategy.ReadStrategy;
+import com.tavisca.beveragefactory.factory.OrderFactory;
+import com.tavisca.beveragefactory.factory.ReadFactory;
+import com.tavisca.beveragefactory.model.Ingredient;
+import com.tavisca.beveragefactory.model.Product;
+import com.tavisca.beveragefactory.repository.InMemoryRepo;
+import com.tavisca.beveragefactory.service.Order;
+import com.tavisca.beveragefactory.strategy.ReadStrategy;
 
 import java.util.HashMap;
 import java.util.List;

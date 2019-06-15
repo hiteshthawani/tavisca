@@ -1,6 +1,6 @@
-package com.tavisca.veberagefactory.repository;
+package com.tavisca.beveragefactory.repository;
 
-import com.tavisca.veberagefactory.model.Product;
+import com.tavisca.beveragefactory.model.Product;
 
 import java.util.HashMap;
 

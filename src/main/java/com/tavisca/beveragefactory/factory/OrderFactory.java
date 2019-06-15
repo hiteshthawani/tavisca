@@ -1,7 +1,7 @@
-package com.tavisca.veberagefactory.factory;
+package com.tavisca.beveragefactory.factory;
 
-import com.tavisca.veberagefactory.service.DefaultOrderImpl;
-import com.tavisca.veberagefactory.service.Order;
+import com.tavisca.beveragefactory.service.DefaultOrderImpl;
+import com.tavisca.beveragefactory.service.Order;
 
 public class OrderFactory {
 
